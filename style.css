@@ -1,0 +1,386 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+header img{
+    height: 40px;
+}
+header button{
+    background-color: #E8EFF2;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+}
+main{
+    width: 100%;
+    overflow-x: hidden;
+}
+.keyboard-text{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.keyboard-text h1{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+}
+.keyboard-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.keyboard-text button{
+    background-color: #F16718;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+}
+.keyboard-text h2{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #7B8BAD;
+    padding-top: 10px;
+}
+.keyboard-text div{
+    display:flex;
+    gap: 32px;
+}
+.keyboard img{
+    width: 375px;
+    height: 331px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.two-keybords{
+    margin-top: 24px;
+}
+.first{
+    width: 129px;
+    height: 193px;
+    border-radius: 10px; 
+    position: relative;
+    right: 27px;
+    /* background: #F16718;
+    opacity: 0.5; */
+    
+}
+
+.second{
+    width:220px;
+    height: 193px;
+    border-radius: 15px;
+}
+.two-keybords-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 64px;
+}
+.two-keybords-text h1{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.two-keybords-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #7B8BAD;
+    width: 327px;
+    text-align: center;
+}
+.icon-compatible div{
+    background-color: #F16718;
+    position: relative;
+    left: 156px;
+    margin-top: 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+.icon-compatible{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.icon-compatible img{
+   width: 25.14px;
+    height: 16px;
+    margin-top: 22px;
+}
+.icon-compatible h1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.icon-compatible p{
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:  #7B8BAD;
+    padding-left:24px ;
+    margin-top: -21px;
+}
+.icon-bluetooth div{
+    background-color: #F16718;
+    position: relative;
+    left: 156px;
+    margin-top: 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+.icon-bluetooth{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.icon-bluetooth img{
+    width: 17.68px;
+    height: 27.86px;
+    margin-top: 18px;
+}
+.icon-bluetooth h1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.icon-bluetooth p{
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:  #7B8BAD;
+    padding-left:24px ;
+    margin-top: -20px;
+}
+.icon-battery div{
+    background-color: #F16718;
+    position: relative;
+    left: 156px;
+    margin-top: 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+.icon-battery{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.icon-battery img{
+    width: 25.14px;
+    height: 16px;
+    margin-top: 22px;
+}
+.icon-battery h1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.icon-battery p{
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:  #7B8BAD;
+    padding-left:24px ;
+    margin-top: -20px;
+}
+.icon-light div{
+    background-color: #F16718;
+    position: relative;
+    left: 156px;
+    margin-top: 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+.icon-light{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.icon-light img{
+    width: 30.67px;
+    height: 31.34px;
+    margin-top: 14px;
+}
+.icon-light h1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.icon-light p{
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:  #7B8BAD;
+    padding-left:24px ;
+    margin-top: -20px;
+}
+footer h1{
+    color: #7B8BAD;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 50px;
+}
+footer span{
+    font-weight: 700;
+}
+@media(min-width:768px){
+    .keyboard{
+        display: flex;
+        align-items: center;
+    }
+    .keyboard img{
+        width: 478px;
+        height: 425px;
+        padding-left: 124px;
+    }
+    .first-second{
+        display: flex;
+        justify-content: center;
+        gap:30px
+    }
+    .first{
+        width: 212px;
+        height: 320px;
+        position: inherit;
+    }
+    .second{
+        width: 445px;
+        height: 320px;
+    }
+    .two-keybords-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:110px;
+    }
+    .two-keybords-text h1 {
+        text-align: inherit;
+    }
+
+    .two-keybords p{
+       width: 398px;
+       text-align:inherit ;
+    }
+    .two-first{
+        display: flex;
+        gap: 43px;
+    }
+    .icon-compatible div{
+        left: 30px;
+    }
+    .icon-compatible h1{
+        text-align: inherit;
+        margin-left: 27px;
+    }
+    .icon-compatible p{
+        text-align: inherit;
+    }
+    .icon-bluetooth{
+        gap:45px
+    }
+    .icon-bluetooth div{
+        left: 30px;
+        
+    }
+    .icon-bluetooth h1{
+        text-align: inherit;
+        margin-left: 27px;
+    }
+    .icon-bluetooth p{
+        text-align: inherit;
+    }
+    .two-second{
+        display: flex;
+    }
+    .icon-battery{
+        gap:45px
+    }
+    .icon-battery div{
+        left: 30px; 
+    }
+   .icon-battery h1{
+        text-align: inherit;
+        margin-left: 27px;
+   } 
+   .icon-battery p{
+        text-align: inherit;
+   }
+   .icon-light div{
+     left: 30px; 
+   }
+   .icon-light{
+     gap:45px
+   }
+   .icon-light h1{
+        text-align: inherit;
+        margin-left: 27px;
+   }
+   .icon-light p{
+        text-align: inherit;
+   }
+   .two-second{
+    gap:43px;
+   }
+}
