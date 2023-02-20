@@ -4,7 +4,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 43px;
+    padding: 24px;
 }
 header img{
     height: 40px;
@@ -74,16 +74,23 @@ main{
     margin-top: 24px;
 }
 .first{
-    width: 129px;
+    width: 100%;
     height: 193px;
-    border-radius: 10px; 
-    position: relative;
-    right: 27px;
-    /* background: #F16718;
-    opacity: 0.5; */
-    
+    border-radius: 10px;
+    right: 6px;
+    opacity: 40%;
 }
-
+.first-second{
+    display: flex;
+}
+.forhover{
+    position: relative;
+    background: #F16718;
+    right: 27px;
+    border-radius: 10px;
+    Width: 123px;
+    height: 193px;
+} 
 .second{
     width:220px;
     height: 193px;
@@ -289,23 +296,30 @@ footer span{
     .keyboard{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
     .keyboard img{
         width: 478px;
         height: 425px;
-        /* padding-left: 124px; */
     }
     .first-second{
         display: flex;
         justify-content: center;
-        gap:30px
+        gap: 0px;
     }
     .first{
-        width: 212px;
-        height: 320px;
-        position: inherit;
+        width: 100%;
+        height: 100%;
+        position: revert;
     }
+    .forhover{
+        position: relative;
+        background: #F16718;
+        right: 27px;
+        border-radius: 10px;
+        Width: 212px;
+        height: 320px;
+    } 
     .second{
         width: 445px;
         height: 320px;
@@ -390,21 +404,20 @@ footer span{
 }
 @media(min-width:1440px){
     .desktop-div{
-        width: 255px;
-        height: 240px;
+        width: 268px;
+        height: 198px;
         background-color: #E8EFF2;
         position: relative;
-        left: 109px;
+        left: 212px;
         bottom: 93px;
         border-radius: 20px;
     }
     .keyboard img{
         padding-left: 0px;
         border-radius: 20px;
-        width: 540px;
-        height: 480px;
+        width: 581px;
         position: relative;
-        left: 156px;
+        left: 160px;
     }
     .keyboard-text h1{
         font-size: 56px;
@@ -424,7 +437,12 @@ footer span{
         cursor: pointer;
     }
     header{
-        padding: 122px;
+        display: flex;
+        /* padding: 147px; */
+        margin-left: 154px;
+        margin-right: 150px;
+        margin-top: 37px;
+        justify-content: space-between;
     }
     header button:hover{
         background-color: #162542;
@@ -435,6 +453,7 @@ footer span{
     }
     .two-keybords{
         display: flex;
+        /* gap: 33px; */
     }
     .two-keybords-desktop{
         width: 255px;
@@ -448,20 +467,57 @@ footer span{
     .two-keybords-text{
         flex-direction: column;
         gap: 27px;
+        margin-left: 40px;
     }
     .first{
-        Width:255px;
-        height: 480px;
+        width: 100%;
+        height: 100%;
+        position: revert;
     }
+    .forhover{
+        position: relative;
+        background: #F16718;
+        right: 27px;
+        border-radius: 10px;
+        Width:288px;
+        height: 484px;
+    } 
     .second{
-        width:  445px;
+        width: 445px;
         height: 480px;
+        position: relative;
+        right: 16px;
     }
     .two-keybords p{
         text-align: inherit;
-        width: 255px;
+        width: 256px;
         height: 135px;
         margin-left: 56px;
+    }
+    .two-keybords-desktop{
+        position: relative;
+        top: 241px;
+        left: -77px;
+    }
+    .big-div{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-compatible p{
+        width: 255px;
+        line-height: 26px;
+    }
+    .icon-bluetooth p{
+        width: 255px;
+        line-height: 26px;
+    }
+    .icon-battery p{
+        width: 255px;
+        line-height: 26px;
+    }
+    .icon-light p{
+        width: 255px;
+        line-height: 26px;
     }
     
 }
