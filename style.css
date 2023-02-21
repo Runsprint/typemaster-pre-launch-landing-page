@@ -296,7 +296,9 @@ footer span{
     .keyboard{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: c;
+        /* justify-content: flex-end; */
+        gap: 1;
     }
     .keyboard img{
         width: 478px;
@@ -402,22 +404,20 @@ footer span{
     gap:43px;
    }
 }
-@media(min-width:1440px){
+@media(min-width: 1440px){
     .desktop-div{
         width: 268px;
         height: 198px;
         background-color: #E8EFF2;
-        position: relative;
-        left: 212px;
-        bottom: 93px;
         border-radius: 20px;
+        position: relative;
     }
     .keyboard img{
-        padding-left: 0px;
         border-radius: 20px;
-        width: 581px;
+        width: 540px;
+        height: 480px;
         position: relative;
-        left: 160px;
+        left: 300px;
     }
     .keyboard-text h1{
         font-size: 56px;
@@ -425,11 +425,13 @@ footer span{
         width: 445px;
     }
     .keyboard-text {
-        width: 445px;
-        font-size: 18px;
-        line-height: 29px;
-        left: 100px;
+        left: 200px;
         position: relative;
+    }
+    .keyboard-text p{
+        width: 445px;
+        height: 78px;
+        font-size: 18px;
     }
     .keyboard-text button:hover {
         background-color: 
@@ -438,11 +440,7 @@ footer span{
     }
     header{
         display: flex;
-        /* padding: 147px; */
-        margin-left: 154px;
-        margin-right: 150px;
-        margin-top: 37px;
-        justify-content: space-between;
+        padding-inline: 233px;
     }
     header button:hover{
         background-color: #162542;
@@ -453,7 +451,6 @@ footer span{
     }
     .two-keybords{
         display: flex;
-        /* gap: 33px; */
     }
     .two-keybords-desktop{
         width: 255px;
