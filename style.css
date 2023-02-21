@@ -22,6 +22,7 @@ header button{
 main{
     width: 100%;
     overflow-x: hidden;
+    /* display: flex; */
 }
 .keyboard-text{
     padding-left: 24px;
@@ -330,7 +331,7 @@ footer span{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap:110px;
+        gap: 117px;
     }
     .two-keybords-text h1 {
         text-align: inherit;
@@ -338,10 +339,8 @@ footer span{
 
     .two-keybords p{
        width: 398px;
-       text-align:inherit;
-       width: 255px;
-       height: 135px;
-       margin-left: 56px;
+       text-align: inherit;
+       height: 78px;
     }
     .two-first{
         display: flex;
@@ -410,7 +409,9 @@ footer span{
         height: 198px;
         background-color: #E8EFF2;
         border-radius: 20px;
-        position: relative;
+        position: fixed;
+        right: -162px;
+        top: 146px;
     }
     .keyboard img{
         border-radius: 20px;
